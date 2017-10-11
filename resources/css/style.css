@@ -1,0 +1,185 @@
+.header{
+  background-image: url("../images/banner-bg.png");
+  background-size: cover;
+  background-position: center;
+  height: 31rem;
+}
+/*the top header needs to be 1rem from top of page and vertically and horizonntally aligned */
+.topheader{
+  width: 960px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: cadetblue;
+  padding: 1rem 2rem;
+}
+
+.designheader {
+  display: flex;
+  align-items: center;
+}
+.designheader img{
+  height: 1.5rem;
+  padding-right: 1rem;
+}
+
+.designheader span{
+  font-family: helvetica;
+  font-size: 1rem;
+  color: white;
+  font-weight: normal;
+}
+
+.navheader{
+  font-family: helvetica;
+  font-size: 1rem;
+  color: white;
+  font-weight: normal;
+}
+
+.navheader span{
+  padding-right:2rem;
+}
+
+.navheader span:nth-child(3){
+  padding-right:0;
+}
+.lowerheader{
+  background-color: white;
+  padding: 1.5rem 5rem 1.5rem 3rem;
+  position: absolute;
+  margin-top: 10rem;
+  right: 5rem;
+}
+
+.lowerheader h1{
+  font-family: helvetica;
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 1.2;
+}
+/*end of header*/
+
+/*3 picture container*/
+
+.picturecontainer{
+  height: 8rem;
+  margin-bottom: 3rem;
+}
+.pictures {
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.phrases{
+  display: flex;
+  justify-content: center;
+}
+
+.paper {
+  padding-right: 6rem;
+}
+
+.paper img {
+  width: 3.5rem;
+}
+
+.paper p{
+  margin-top: 3rem;
+  position: absolute;
+}
+.ruler {
+  width: 5rem;
+}
+
+.ruler img{
+  width: 5rem;
+}
+
+.ruler p{
+  margin-top:4rem;
+}
+
+.truck {
+  padding-left: 6rem;
+}
+
+.truck img{
+  width: 5rem;
+}
+
+.truck p{
+  margin-top: 4.5rem;
+}
+
+.icons p{
+  text-align: center;
+}
+
+.wordscontainer {
+  width: 960px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 5rem;
+}
+
+.philosophy {
+  width: 35%;
+}
+
+.philosophy h4{
+  font-family: helvetica, sans-serif;
+  font-size: 1rem;
+  background-color: cadetblue;
+  color: white;
+  padding: .8rem;
+  width: 55%;
+  font-weight: bold;
+}
+
+.philosophy p{
+  /*width: 35%;*/
+  padding-top: 1rem;
+  font-family: helvetica, sans-serif;
+  line-height: 1.5rem;
+}
+
+.appointments {
+  width: 35%;
+  margin-left: 5rem;
+}
+
+.appointments h4{
+  font-family: helvetica, sans-serif;
+  font-size: 1rem;
+  background-color: cadetblue;
+  color: white;
+  padding: .8rem;
+  width: 55%;
+  font-weight: bold;
+}
+
+.appointments p{
+  padding-top: 1rem;
+  font-family: helvetica, sans-serif;
+  line-height: 1.5rem;
+}
+
+.footer{
+  width: 960px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: azure;
+  padding: 4rem 0 4rem 4rem;
+}
+
+.footer img{
+  height: 1.5rem;
+  padding-right: 1rem;
+}
