@@ -89,36 +89,20 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 3rem;
-  margin-bottom: 3rem;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
 }
 
 .paper {
   padding-right: 6rem;
   display: flex;
   flex-direction:column;
-  align-content: center;
   justify-content: space-between;
   height: 8rem;
 }
 
 .paper img {
   width: 3.5rem;
-}
-
-.paper p{
-  /*margin-top: 3rem;*/
-  width: 3.5rem;
-  flex-wrap: wrap;
-}
-
-.paper
-.ruler
-.truck {
-  display: flex;
-  flex-direction:column;
-  align-content: center;
-  height: 8rem;
 }
 
 .ruler{
@@ -134,15 +118,10 @@
   margin: 0 auto;
 }
 
-/*.ruler p{
-  margin-top:4rem;
-}*/
-
 .truck {
   padding-left: 6rem;
   display: flex;
   flex-direction:column;
-  align-content: center;
   justify-content: space-between;
   height: 8rem;
 }
@@ -151,16 +130,17 @@
   width: 5rem;
 }
 
-.truck p{
-  /*margin-top: 4.5rem;*/
-}
-
 .icons p{
   text-align: center;
-  align-self: flex-end;
+  display: flex;
+  justify-content: space-around;
   font-family: helvetica, sans-serif;
   font-size: 1rem;
+  width: 3.5rem;
+  margin: 0 auto;
 }
+
+
 
 .wordscontainer {
   width: 960px;
@@ -230,18 +210,18 @@
   .header{
     height:22rem;
   }
-
+/*Need to the fix the top header, it's not staying within the screen width, it's bleeding into the white pace to the right*/
   .topheader{
     top: 0;
-    width: 100%;
   }
   .mobilenav{
     display: none;
   }
   .lowerheader{
-    margin-top: 7rem;
-    padding: .75rem 4rem .75rem 4rem;
-    margin-right: 2rem;
+    margin-top: 10rem;
+    padding: 1rem 4rem 1rem 4rem;
+    margin-right: 10rem;
+
   }
   .lowerheader h1{
     font-size: 1.33rem;
