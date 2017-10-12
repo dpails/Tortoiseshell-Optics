@@ -230,6 +230,7 @@
   .header{
     height:22rem;
   }
+
   .topheader{
     top: 0;
     width: 100%;
@@ -264,11 +265,95 @@
 }
 
 @media only screen and (max-width: 480px) {
-    .topheader{
+  .header{
+      height: 17rem;
+      background-position: 20%;
+    }
+    /*Need to fix the mobile nav*/
+  .topheader{
       width:100%;
     }
-    .regulardisp{
+  .regular{
       display: none;
     }
+  .designheader span{
+      display: none;
+    }
+  .designheader img {
+    height: 1rem;
+  }
+    .mobilenav{
+      text-align: right;
+    }
+/*End of need to fix mobile nav*/
 
+
+
+  .lowerheader{
+      width: 100%;
+      margin-top: 12rem;
+    }
+  .lowerheader h1{
+      padding-top: .5rem;
+      padding-bottom:.5rem;
+      text-align: center;
+      font-size: 1rem;
+    }
+/*Need to fix the position of the icons to center of the div*/
+  .pictures{
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+    }
+  .paper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .ruler{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .truck{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+/*The container needs to be fixed for width and center align*/
+  .wordscontainer{
+    display: flex;
+    flex-direction: column;
+    /*align-items: center;*/
+    /*justify-content: center;*/
+    width: 100%;
+  }
+  .philosophy{
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 3.77rem;
+    padding-bottom: 4rem;
+  }
+  .philosophy p{
+    font-size: 0.77rem;
+  }
+  .appointments{
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 3rem;
+  }
+  .appointments p{
+    font-size: 0.77rem;
+  }
+/*End of words container*/
+
+  .copy{
+    display: none;
+  }
+  .footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
