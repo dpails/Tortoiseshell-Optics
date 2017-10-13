@@ -140,7 +140,9 @@
   margin: 0 auto;
 }
 
+/*End 3 Icons Container*/
 
+/*Start philosophy and appointments container*/
 
 .wordscontainer {
   width: 960px;
@@ -191,6 +193,10 @@
   line-height: 1.5rem;
 }
 
+/*End container*/
+
+/*Starter Footer*/
+
 .footer{
   width: 960px;
   margin: 0 auto;
@@ -206,13 +212,17 @@
   padding-right: 1rem;
 }
 
+/*End Footer*/
+
 @media only screen and (max-width: 1024px){
   .header{
     height:22rem;
+    width: 100%;
   }
-/*Need to the fix the top header, it's not staying within the screen width, it's bleeding into the white pace to the right*/
+/*Need to the fix the top header, it's not staying within the screen width, it's bleeding into the white space to the right*/
   .topheader{
     top: 0;
+    width: 100%;
   }
   .mobilenav{
     display: none;
@@ -245,9 +255,11 @@
 }
 
 @media only screen and (max-width: 480px) {
+
   .header{
       height: 17rem;
       background-position: 20%;
+      width: 100%;
     }
     /*Need to fix the mobile nav*/
   .topheader{
@@ -263,26 +275,30 @@
     height: 1rem;
   }
     .mobilenav{
-      text-align: right;
+      display: inline;
+      /*padding-right: 2rem;*/
     }
 /*End of need to fix mobile nav*/
 
 
 
   .lowerheader{
-      width: 100%;
+      /*width: 100%;*/
       margin-top: 12rem;
+      display: inline-block;
     }
   .lowerheader h1{
       padding-top: .5rem;
       padding-bottom:.5rem;
-      text-align: center;
+      /*text-align: center;*/
+      margin: 0 auto;
       font-size: 1rem;
     }
 /*Need to fix the position of the icons to center of the div*/
   .pictures{
       display: flex;
       flex-direction: column;
+      justify-content: center;
       width: 100%;
     }
   .paper{
@@ -301,30 +317,45 @@
     align-items: center;
   }
 
-/*The container needs to be fixed for width and center align*/
+/*End of 3 Icons*/
+
+/*philosophy and appointments*/
+
   .wordscontainer{
     display: flex;
     flex-direction: column;
-    /*align-items: center;*/
-    /*justify-content: center;*/
     width: 100%;
   }
   .philosophy{
     width: 100%;
     margin: 0 auto;
-    padding-top: 3.77rem;
+    padding-top: 1.77rem;
     padding-bottom: 4rem;
   }
+  .philosophy h4{
+    width: 100%;
+    text-align: center;
+  }
   .philosophy p{
+    width: 70%;
     font-size: 0.77rem;
+    text-align: center;
+    margin: 0 auto;
   }
   .appointments{
     width: 100%;
     margin: 0 auto;
     padding-bottom: 3rem;
   }
+  .appointments h4{
+    width: 100%;
+    text-align: center;
+  }
   .appointments p{
+    width: 70%;
     font-size: 0.77rem;
+    text-align: center;
+    margin: 0 auto;
   }
 /*End of words container*/
 
